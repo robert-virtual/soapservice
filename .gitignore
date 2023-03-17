@@ -38,3 +38,5 @@ build/
 /src/main/java/com/example/soapservice/GetCountryResponse.java
 /src/main/java/com/example/soapservice/ObjectFactory.java
 /src/main/java/com/example/soapservice/package-info.java
+
+src/main/resources/application.properties
