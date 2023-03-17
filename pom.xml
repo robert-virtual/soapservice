@@ -90,8 +90,6 @@
                     <sources>
                         <source>${project.basedir}/src/main/resources/countries.xsd</source>
                     </sources>
-                    <outputDirectory>${project.basedir}/src/main/java/</outputDirectory>
-                    <clearOutputDir>false</clearOutputDir>
                 </configuration>
             </plugin>
             <!--generate java classes from xsd file-->

@@ -1,0 +1,27 @@
+the following is a xsd describing the response of a soap web servicea:
+
+<xs:element name="getCountryResponse">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="country" type="tns:country"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+
+<xs:complexType name="country">
+    <xs:sequence>
+        <xs:element name="id" type="xs:long"/>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="population" type="xs:int"/>
+        <xs:element name="capital" type="xs:string"/>
+        <xs:element name="currency" type="xs:string"/>
+    </xs:sequence>
+</xs:complexType>
+
+it returns information of one Country.
+
+how would look a xsd describing the response of soap web service that returns a list of countries
+
+<xs:element name="getCountriesResponse">
+...
+</xs:element>

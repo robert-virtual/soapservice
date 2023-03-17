@@ -1,0 +1,11 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:service="http://soapservice.example.com"
+>
+    <soapenv:Header/>
+    <soapenv:Body>
+        <service:getCountryRequest>
+            <service:name>Honduras</service:name>
+        </service:getCountryRequest>
+    </soapenv:Body>
+
+</soapenv:Envelope>
