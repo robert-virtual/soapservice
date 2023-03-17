@@ -44,7 +44,6 @@ public class CountryEndpoint {
             country.setPopulation(x.getPopulation());
             return country;
         }).toList();
-        System.out.println(countries);
         response.getCountries().addAll(countries);
         return response;
     }
