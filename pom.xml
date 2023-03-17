@@ -54,6 +54,20 @@
             <artifactId>wsdl4j</artifactId>
         </dependency>
         <!--wsdl4j-->
+
+        <!--data jpa-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+        <!--data jpa-->
+        <!--mssql jdbc-->
+        <dependency>
+            <groupId>com.microsoft.sqlserver</groupId>
+            <artifactId>mssql-jdbc</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+        <!--mssql jdbc-->
     </dependencies>
 
     <build>
@@ -76,6 +90,8 @@
                     <sources>
                         <source>${project.basedir}/src/main/resources/countries.xsd</source>
                     </sources>
+                    <outputDirectory>${project.basedir}/src/main/java</outputDirectory>
+                    <clearOutputDir>false</clearOutputDir>
                 </configuration>
             </plugin>
             <!--generate java classes from xsd file-->

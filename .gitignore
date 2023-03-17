@@ -31,3 +31,10 @@ build/
 
 ### VS Code ###
 .vscode/
+/src/main/java/META-INF/JAXB/
+/src/main/java/com/example/soapservice/Country.java
+/src/main/java/com/example/soapservice/Currency.java
+/src/main/java/com/example/soapservice/GetCountryRequest.java
+/src/main/java/com/example/soapservice/GetCountryResponse.java
+/src/main/java/com/example/soapservice/ObjectFactory.java
+/src/main/java/com/example/soapservice/package-info.java
